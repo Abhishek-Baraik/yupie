@@ -10,6 +10,10 @@ html {
   background: url("./images/bg-bnr.jpg") no-repeat center top;
 }
 
+.top-bar{
+  background: url(./images/bg-topbar.jpg) repeat-x center top;
+}
+
 .repeater {
   background: url("./images/bg-hdngbrdrdiv.png");
   background-repeat: repeat-x;

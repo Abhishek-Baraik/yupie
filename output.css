@@ -698,6 +698,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -931,6 +935,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -982,6 +991,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1047,6 +1061,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#FF9B00\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 155 0 / var(--tw-text-opacity));
+}
+
 .opacity-80 {
   opacity: 0.8;
 }
@@ -1069,6 +1088,10 @@ html {
 
 .hero {
   background: url("./images/bg-bnr.jpg") no-repeat center top;
+}
+
+.top-bar{
+  background: url(./images/bg-topbar.jpg) repeat-x center top;
 }
 
 .repeater {
