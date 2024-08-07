@@ -1017,6 +1017,31 @@ video {
   padding-right: 18rem;
 }
 
+.px-\[2rem\] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[30\%\] {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.px-\[3\] {
+  padding-left: 3;
+  padding-right: 3;
+}
+
+.px-\[18\\rem\] {
+  padding-left: 18\rem;
+  padding-right: 18\rem;
+}
+
+.px-\[20\%\] {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
