@@ -29,9 +29,7 @@ html {
 }
 
 .last-section {
-  background: url(./images/bg-sec5.jpg) no-repeat;
-  background-size: cover;
-  background-position: top;
+  background: url(./images/bg-sec5.jpg) no-repeat center top;
 }
 
 .divider-red {
