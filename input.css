@@ -7,14 +7,11 @@ html {
 }
 
 .hero {
-  background: url("./images/bg-bnr.jpg") no-repeat;
-  background-size: cover;
-  background-position: top;
+  background: url("./images/bg-bnr.jpg") no-repeat center top;
 }
 
 @media (max-width: 1024px) {
   .hero {
-    background-position: center;
     background: url("./images/bg-bnr.jpg") no-repeat center top;
   }
 }
