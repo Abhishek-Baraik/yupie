@@ -8,10 +8,12 @@ html {
 
 .hero {
   background: url("./images/bg-bnr.jpg") no-repeat center top;
+  
 }
 
 .top-bar{
   background: url(./images/bg-topbar.jpg) repeat-x center top;
+  height: 40px;
 }
 
 .repeater {
