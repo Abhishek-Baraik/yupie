@@ -2,35 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-.hero{
-    background: url('./images/bg-bnr.jpg') no-repeat;
-    background-size: cover;
-    background-position: top;
+.hero {
+  background: url("./images/bg-bnr.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
-.repeater{
-    background: url('./images/bg-hdngbrdrdiv.png');
-    background-repeat: repeat-x;
-    background-size: cover;
-    background-position: top;
-}
-.rushmyorder{
-    background: url('./images/bg-cta.jpg');
-
-}
-
-.last-section{
-    background: url(./images/bg-sec5.jpg) no-repeat;
-    background-size: cover;
-    background-position: top;
-}
-
-.divider-red{
-    background: url(./images/bg-hdngbrdrdiv.png);
-    height: 5px;
+@media (max-width: 1024px) {
+  .hero {
     background-position: center;
+    background: url("./images/bg-bnr.jpg") no-repeat center top;
+  }
+}
+
+.repeater {
+  background: url("./images/bg-hdngbrdrdiv.png");
+  background-repeat: repeat-x;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+.rushmyorder {
+  background: url("./images/bg-cta.jpg");
+}
+
+.last-section {
+  background: url(./images/bg-sec5.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.divider-red {
+  background: url(./images/bg-hdngbrdrdiv.png);
+  height: 5px;
+  background-position: center;
 }
