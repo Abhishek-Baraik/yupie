@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background: url('./images/bg-bnr.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.repeater{
+    background: url('./images/bg-hdngbrdrdiv.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: top;
+}
+.rushmyorder{
+    background: url('./images/bg-cta.jpg');
+
+}
+
+.last-section{
+    background: url(./images/bg-sec5.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.divider-red{
+    background: url(./images/bg-hdngbrdrdiv.png);
+    height: 5px;
+    background-position: center;
+}
